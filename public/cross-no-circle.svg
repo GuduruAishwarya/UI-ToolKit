@@ -1,0 +1,10 @@
+<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Icon/Outline/x">
+<mask id="mask0_2409_12283" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="2" y="2" width="8" height="8">
+<path id="shape" d="M3 9L9 3M3 3L9 9" stroke="#4B5563" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</mask>
+<g mask="url(#mask0_2409_12283)">
+<rect id="Vector" width="12" height="12" fill="#4B5563"/>
+</g>
+</g>
+</svg>

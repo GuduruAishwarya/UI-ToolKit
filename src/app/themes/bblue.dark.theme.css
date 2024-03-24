@@ -1,0 +1,30 @@
+html[data-theme='bblue-dark'] {
+  --base-color: #111827;
+  --base-100: #0e1421;
+  --base-200: #252f45;
+  --base-300: #44506b;
+  --base-500: #4b5563;
+  --base-700: #9ca3af;
+  --base-900: #dde0ec;
+  --color-primary: #006aff;
+  --color-button: #006aff;
+  --color-button-text: #ffffff;
+  --color-primary-low-contrast: #172031;
+  --color-primary-high-contrast: #abceff;
+  --color-secondary: #006fb3;
+  --color-secondary-low-contrast: #273441;
+  --color-neutral-low-contrast: #dff1ff;
+  --color-neutral-high-contrast: #006fb3;
+  --color-red-low-contrast: #ea3f43;
+  --color-red-medium-contrast: #f9dee0;
+  --color-red-high-contrast: #fcf1f2;
+  --color-red-bright: #ea3f43;
+  --color-green-low-contrast: #dffeeb;
+  --color-green-high-contrast: #408f51;
+  --color-green-bright: #00b357;
+  --color-yellow-low-contrast: #d5862f;
+  --color-yellow-medium-contrast: #f3ae3d;
+  --color-yellow-high-contrast: #fffdec;
+  --color-yellow-bright: #f3ae3d;
+  --color-system-verified: #398bfe;
+}
