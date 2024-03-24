@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* default theme 'hd-orange-light' */
+  .checkbox-after-style::after{
+    display: block;
+  }
+  
+  .checkbox-after-style{
+    border-color: var(--color-primary);
+  }
+  html {
+    --base-color: #ffffff; /* White */
+    --base-100: #fafbfc; /*Background Color */
+    --base-200: #ededee; /* light lines and fill */
+    --base-300: #c7cbd1; /* dark lines and fill*/
+    --base-500: #9ca3af; /*text-light*/
+    --base-700: #4b5563; /*text-standard*/
+    --base-900: #111827; /*text-dark*/
+    --color-primary: #ea9549; /*pop-color*/
+    --color-button: #ea9549; /*button color*/
+    --color-button-text: #ffffff; /*button-text color*/
+    --color-primary-low-contrast: #fdf5ef; /*highlight*/
+    --color-primary-high-contrast: #af5912; /*dark pop-color*/
+    --color-secondary: #517789; /*link color*/
+    --color-secondary-low-contrast: #e5ebed; /*secondary bg*/
+    --color-neutral-low-contrast: #e5ebed; /*neutral background*/
+    --color-neutral-high-contrast: #517789; /*neutral text*/
+    --color-red-low-contrast: #fdecec; /*red background*/
+    --color-red-medium-contrast: #f9d8d8; /*red - offset*/
+    --color-red-high-contrast: #dd5e51; /*red-text*/
+    --color-red-bright: #dd5e51; /*red bright*/
+    --color-green-low-contrast: #e6eedf; /*green background*/
+    --color-green-high-contrast: #596d47; /*green text*/
+    --color-green-bright: #82a860; /*green bright*/
+    --color-yellow-low-contrast: #fdf7e6; /*yellow background*/
+    --color-yellow-medium-contrast: #f8ebd5; /*yellow offset*/
+    --color-yellow-high-contrast: #d38640; /*yellow text*/
+    --color-yellow-bright: #eab308; /*yellow bright*/
+    --color-system-verified: #398bfe; /*system verified*/
+  }
+  @import 'themes/hd-orange.dark.theme.css';
+  @import 'themes/bblue.light.theme.css';
+  @import 'themes/bblue.dark.theme.css';
+}
+
+.otp-inputfield::-webkit-outer-spin-button,
+.otp-inputfield::-webkit-inner-spin-button {
+  appearance: none;
+}
+::-webkit-scrollbar   {
+  width: 6px;
+  height: 6px;  
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #f0e9e9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-primary);
+  border-radius: 10px;
+}
+input:-webkit-autofill,
+input:-moz-autofill,
+input:-o-autofill,
+input:-ms-autofill,
+input:-webkit-autofill:enabled,
+input:-moz-autofill:enabled,
+input:-o-autofill:enabled,
+input:-ms-autofill:enabled,
+input:-webkit-autofill:hover,
+input:-moz-autofill:hover,
+input:-o-autofill:hover,
+input:-ms-autofill:hover,
+input:-webkit-autofill:focus,
+input:-moz-autofill:focus,
+input:-o-autofill:focus,
+input:-ms-autofill:focus,
+input:-internal-autofill-selected{
+background-color: #ffffff !important;
+-webkit-box-shadow: 0 0 0 50px white inset;
+}
+html,
+body {
+  height: 100%;
+}
+
+@layer utilities {
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}
